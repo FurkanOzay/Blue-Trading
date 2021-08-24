@@ -6,15 +6,92 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 90%;
-    height: auto;
-}
+
+
 
 header{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     height: 600px;
+    background: url('../images/Background\ Shape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
     background-color: $primary-color;
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 100%;
+        height: 80px;
+
+        
+        .logo{
+            padding-left: 100px;
+
+            a{
+                text-decoration: none;
+                color: $white;
+                font-family: $primary-font;
+                font-size: 26px;
+            }
+        } //Logo End
+
+        .menu-items{
+            padding-right: 120px;
+
+            a{
+                color: $white;
+                text-decoration: none;
+                padding-right: 30px;
+                font-family: Biko-Regular;
+            }
+        }// Menu-items End
+    }// menu end
+
+    .header-content{
+        display: flex;
+        width: 100%;
+        height: 520px;
+
+        .header-content-left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 520px;
+            padding-left: 80px;
+
+            span{
+                font-size: 42px;
+                font-family: Biko-Black;
+                line-height: 70px;
+            }
+
+            p{
+                width: 70%;
+                line-height: 32px;
+                font-family: Biko-Regular;
+                color: $white;
+            }
+        }
+
+        .header-content-right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            height: 520px;
+            padding-right: 120px;
+
+
+            img{
+                width: 360px;
+            }
+        }
+    }
 }
