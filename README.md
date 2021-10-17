@@ -9,5 +9,13 @@ Free Adobe Xd Landing Page Template
 
 ![Header](images/Header.png) <br>
 
-![Header](images/ABout.png) 
+![Header](images/ABout.png) <br>
 
+![Header](images/Features.png) <br>
+
+![Header](images/Latest.png) <br>
+
+![Header](images/Testimonials.png) <br>
+
+### !!! NOT:
+Kodlanan tüm alanlarda pixel uyumluluğu 100% değildir. Ayrıca Responsive görünüm tam kodlama bittikten sonra yapılacaktır.
