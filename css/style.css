@@ -299,7 +299,7 @@ header .header-content .header-content-right img {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  height: 520px;
+  height: 650px;
   background-color: #F5F5F5;
 }
 
@@ -363,14 +363,15 @@ header .header-content .header-content-right img {
 }
 
 .features .features-images-area .features-item .features-image img {
-  width: 100px;
+  width: 250px;
 }
 
 .features .features-images-area .features-item .features-image p {
   text-align: center;
   color: #676767;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 40px;
+  width: 70%;
 }
 
 .latest-news {
@@ -382,7 +383,9 @@ header .header-content .header-content-right img {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  height: 520px;
+  height: 750px;
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
 
 .latest-news .latest-news-title {
@@ -403,5 +406,223 @@ header .header-content .header-content-right img {
   border-bottom: 2px solid gray;
   padding-bottom: 8px;
   color: #0864B1;
+}
+
+.latest-news .img-area {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.latest-news .img-area .img-items {
+  width: 70%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.latest-news .img-area .img-items .img-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  height: 500px;
+  padding-bottom: 0px;
+}
+
+.latest-news .img-area .img-items .img-item img {
+  width: 300px;
+  height: 200px;
+}
+
+.latest-news .img-area .img-items .img-item .img-info {
+  color: #696969;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.latest-news .img-area .img-items .img-item a {
+  text-align: right;
+}
+
+.latest-news .carousel-indicators li {
+  background-color: #0864B1;
+  width: 50px;
+  height: 10px;
+}
+
+.testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 520px;
+  padding-top: 40px;
+  margin-bottom: 250px;
+  background-color: #F5F5F5;
+}
+
+.testimonials .testimonials-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.testimonials .testimonials-title h2 {
+  border-bottom: 2px solid gray;
+  padding-bottom: 8px;
+  color: #0864B1;
+}
+
+.testimonials .testimonials-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 520px;
+}
+
+.testimonials .testimonials-box .splide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  height: 400px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonials .testimonials-box .splide .splide__track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
+}
+
+.testimonials .testimonials-box .splide .splide__track .splide__slide {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.testimonials .testimonials-box .splide .splide__track .splide__slide .test-box {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.testimonials .testimonials-box .splide .splide__track .splide__slide .test-box .quote-left {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/quote-left.png");
+  background-repeat: no-repeat;
+  left: calc(100% - 94%);
+  top: 110px;
+}
+
+.testimonials .testimonials-box .splide .splide__track .splide__slide .test-box .quote-right {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/quote-right.png");
+  background-repeat: no-repeat;
+  left: calc(100% - 9%);
+  top: 30px;
+}
+
+.testimonials .testimonials-box .splide .splide__track .splide__slide .test-box p {
+  color: #676767;
+  text-align: center;
+  width: 80%;
+  height: 85px;
+  overflow: hidden;
+  line-height: 30px;
+}
+
+.testimonials .testimonials-box .splide .splide__track .splide__slide .test-box h6 {
+  margin-top: 10px;
+  color: #0864B1;
+}
+
+.testimonials .testimonials-box .splide .splide__track .splide__slide .test-box span {
+  margin-top: 10px;
+}
+
+.testimonials .testimonials-box .splide .splide__arrow {
+  background-color: transparent;
+}
+
+.testimonials .testimonials-box .splide .splide__arrow svg path {
+  background-color: red;
 }
 /*# sourceMappingURL=style.css.map */
