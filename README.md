@@ -19,5 +19,7 @@ Free Adobe Xd Landing Page Template
 
 ![Header](images/join-our.png) <br>
 
+![Header](images/Contact-Us.png) <br>
+
 ### !!! NOT:
 Kodlanan tüm alanlarda pixel uyumluluğu 100% değildir. Ayrıca Responsive görünüm tam kodlama bittikten sonra yapılacaktır.
