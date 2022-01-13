@@ -15,6 +15,69 @@
   src: url("../font/Biko_Black.otf") format("opentype");
 }
 
+@media only screen and (max-width: 992px) {
+  .header-content-left {
+    padding-left: 0px !important;
+  }
+  .header-content-left span {
+    font-size: 32px !important;
+    line-height: 50px !important;
+  }
+  .header-content-right {
+    padding-right: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    height: auto !important;
+  }
+  .menu .logo {
+    padding: 0 !important;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu .menu-items {
+    display: none !important;
+  }
+  .header-content {
+    height: 700px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .header-content .header-content-left {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .header-content .header-content-left p {
+    width: 100% !important;
+    text-align: center;
+    font-size: 16px !important;
+  }
+  .header-content .header-content-left p span {
+    font-size: 22px !important;
+  }
+  .header-content .header-content-right {
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 50px;
+  }
+  .header-content .header-content-right img {
+    width: 60% !important;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -105,17 +168,17 @@ header .header-content .header-content-left {
   padding-left: 80px;
 }
 
-header .header-content .header-content-left span {
-  font-size: 42px;
-  font-family: Biko-Black;
-  line-height: 70px;
-}
-
 header .header-content .header-content-left p {
   width: 70%;
   line-height: 32px;
   font-family: Biko-Regular;
   color: #fff;
+}
+
+header .header-content .header-content-left p span {
+  font-size: 42px;
+  font-family: Biko-Black;
+  line-height: 70px;
 }
 
 header .header-content .header-content-right {
@@ -371,7 +434,7 @@ header .header-content .header-content-right img {
   color: #676767;
   font-size: 22px;
   line-height: 40px;
-  width: 70%;
+  width: 90%;
 }
 
 .latest-news {
@@ -684,7 +747,7 @@ header .header-content .header-content-right img {
 }
 
 .join-us-area .join-us .join-us-input-area input {
-  width: 400px;
+  width: 100%;
   height: 50px;
 }
 
@@ -769,7 +832,7 @@ header .header-content .header-content-right img {
 }
 
 .contact-us .contact-us-area form {
-  width: auto;
+  width: "auto";
   height: 800px;
   margin-top: 30px;
 }
@@ -782,7 +845,7 @@ header .header-content .header-content-right img {
 }
 
 .contact-us .contact-us-area form label input {
-  width: 400px;
+  width: 100%;
   height: 50px;
   outline: none;
   margin-top: 20px;
@@ -793,11 +856,11 @@ header .header-content .header-content-right img {
 }
 
 .contact-us .contact-us-area form label #subject {
-  width: 825px;
+  width: 100%;
 }
 
 .contact-us .contact-us-area form label textarea {
-  width: 825px;
+  width: 100%;
   height: 300px;
   border: none;
   outline: none;

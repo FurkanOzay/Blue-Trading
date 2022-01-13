@@ -1,12 +1,13 @@
 @import "font";
 @import "var";
+@import "responsive";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+//Header Normal Style Code
 header {
   display: flex;
   flex-direction: column;
@@ -63,18 +64,18 @@ header {
       height: 520px;
       padding-left: 80px;
 
-      span {
-        font-size: 42px;
-        font-family: Biko-Black;
-        line-height: 70px;
-      }
-
       p {
         width: 70%;
         line-height: 32px;
         font-family: Biko-Regular;
         color: $white;
+        span {
+          font-size: 42px;
+          font-family: Biko-Black;
+          line-height: 70px;
+        }
       }
+
     }
 
     .header-content-right {
@@ -91,6 +92,11 @@ header {
     }
   }
 }
+
+
+//HEADER ALANINA MOBİL MENU KOYULACAK
+
+
 
 .about {
   display: flex;
@@ -257,7 +263,7 @@ header {
           color: $font-color-2;
           font-size: 22px;
           line-height: 40px;
-          width: 70%;
+          width: 90%;
         }
       }
     }
@@ -472,7 +478,7 @@ header {
       height: 400px;
 
       input {
-        width: 400px;
+        width: 100%;
         height: 50px;
 
         &::placeholder {
@@ -523,7 +529,7 @@ header {
     height: auto;
 
     form {
-      width: auto;
+      width: "auto";
       height: 800px;
       margin-top: 30px;
 
@@ -534,7 +540,7 @@ header {
         font-weight: bolder;
 
         input {
-          width: 400px;
+          width: 100%;
           height: 50px;
           outline: none;
           margin-top: 20px;
@@ -544,11 +550,11 @@ header {
           -moz-box-shadow: 7px 9px 32px -9px rgba(128, 128, 128, 1);
         }
         #subject {
-          width: 825px;
+          width: 100%;
         }
 
         textarea {
-          width: 825px;
+          width: 100%;
           height: 300px;
           border: none;
           outline: none;
